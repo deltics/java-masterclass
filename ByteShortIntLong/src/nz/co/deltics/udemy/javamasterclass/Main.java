@@ -23,5 +23,16 @@ public class Main {
         long maxLong = Long.MAX_VALUE;
         System.out.println("Long Min = " + minLong);
         System.out.println("Long Max = " + maxLong);
+
+        int intDivision = minInt / 2;
+        byte byteDivision = (byte) (minByte / 2);
+        short shortDivision = (short) (minShort / 2);
+        long longDivision = (minLong / 2);
+
+        byte anyByte = 64;
+        short anyShort = 16384;
+        int anyInt = 1062783;
+        long longResult = 50000 + (10 * (anyByte + anyShort + anyInt));
+        System.out.println("Long Result = " + longResult);
     }
 }
