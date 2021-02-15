@@ -2,10 +2,10 @@ package nz.co.deltics.udemy.javamasterclass;
 
 public class Cuboid extends Rectangle {
 
-    private final double height;
+    private double height;
 
-    public Cuboid(double length, double width, double height) {
-        super(length, width);
+    public Cuboid(double width, double length, double height) {
+        super(width, length);
 
         this.height = height >= 0 ? height : 0;
     }
